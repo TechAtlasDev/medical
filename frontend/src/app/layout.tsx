@@ -8,8 +8,30 @@ import NextTopLoader from 'nextjs-toploader';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Next Shadcn',
-  description: 'Basic dashboard with Next.js and Shadcn'
+  title: "A Smarter Way to Diagnose and Innovate in Healthcare",
+  description: "Get instant medical insights, explore AI-driven diagnostics, and seamlessly connect with specialists—all in one platform.",
+  keywords: ["medical", "medicalAI", "IA", "ia", "medical ai", "chatgpt"],
+  openGraph: {
+    title: "A Smarter Way to Diagnose and Innovate in Healthcare",
+    description: "Get instant medical insights, explore AI-driven diagnostics, and seamlessly connect with specialists—all in one platform.",
+    url: "https://medical-experimental.vercel.app/",
+    siteName: "MedicalAI",
+    images: [
+      {
+        url: "hhttps://github.com/TechAtlasDev/medical/blob/main/image.png",
+        width: 800,
+        height: 600,
+        alt: "Landing Page",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "A Smarter Way to Diagnose and Innovate in Healthcare",
+    description: "Get instant medical insights, explore AI-driven diagnostics, and seamlessly connect with specialists—all in one platform.",
+    images: ["hhttps://github.com/TechAtlasDev/medical/blob/main/image.png"],
+  },
 };
 
 const lato = Lato({
