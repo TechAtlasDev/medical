@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "MedicalAI",
     images: [
       {
-        url: "hhttps://github.com/TechAtlasDev/medical/blob/main/image.png",
+        url: "https://raw.githubusercontent.com/TechAtlasDev/medical/main/image.png",
         width: 800,
         height: 600,
         alt: "Landing Page",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "A Smarter Way to Diagnose and Innovate in Healthcare",
     description: "Get instant medical insights, explore AI-driven diagnostics, and seamlessly connect with specialists—all in one platform.",
-    images: ["hhttps://github.com/TechAtlasDev/medical/blob/main/image.png"],
+    images: ["https://raw.githubusercontent.com/TechAtlasDev/medical/main/image.png"],
   },
 };
 
